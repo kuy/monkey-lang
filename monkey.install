@@ -1,0 +1,10 @@
+lib: [
+  "_build/install/default/lib/monkey/META" {"META"}
+  "_build/install/default/lib/monkey/opam" {"opam"}
+]
+bin: [
+  "_build/install/default/bin/monkey" {"monkey"}
+]
+doc: [
+  "_build/install/default/doc/monkey/README.md"
+]
