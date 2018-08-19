@@ -11,7 +11,7 @@
 ## Build
 
 ```
-jbuilder build
+dune build
 ```
 
 ## Run
