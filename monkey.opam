@@ -2,8 +2,9 @@ opam-version: "2.0.0"
 maintainer: "endflow@gmail.com"
 authors: ["Yuki Kodama"]
 license: "MIT"
-build:
-[[ "jbuilder" "build" "--only-packages" "%{name}%" "--root" "." "-j" jobs "@install" ]]
+build: [
+  ["dune" "build" "--only-packages" "%{name}%" "--root" "." "-j" jobs "@install"]
+]
 depends: [
-  "jbuilder" {build}
+  "dune" {build}
 ]

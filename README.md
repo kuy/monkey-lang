@@ -1,4 +1,4 @@
-# Monkey Programming Language Interpreter
+# Monkey Programming Language Interpreter written in OCaml
 
 [Writing an Interpreter in Go](https://interpreterbook.com/) in OCaml.
 
@@ -11,14 +11,15 @@
 ## Build
 
 ```
-dune build
+dune build monkey.exe
 ```
 
 ## Run
 
 ```
-./_build/default/monkey.exe
+dune exec ./monkey.exe
 ```
+
 ## License
 
 MIT
