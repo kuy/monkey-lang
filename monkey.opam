@@ -3,8 +3,5 @@ maintainer: "endflow@gmail.com"
 authors: ["Yuki Kodama"]
 license: "MIT"
 build: [
-  ["dune" "build" "--only-packages" "%{name}%" "--root" "." "-j" jobs "@install"]
-]
-depends: [
-  "dune" {build}
+  ["dune" "build" "--only" "monkey" "--root" "." "-j" jobs "@install"]
 ]

@@ -1,0 +1,6 @@
+Monkey Programming Language :=)
+lexer[0]=pos=0, read=1, ch=+
+token[1]=PLUS
+lexer[1]=pos=1, read=2, ch=(
+token[2]=LPAREN
+lexer[2]=pos=2, read=3, ch=)

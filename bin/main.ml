@@ -1,6 +1,7 @@
 open Printf
-open Token
+open Monkey
 open Lexer
+open Token
 
 let _ =
   printf "Monkey Programming Language :=)\n";

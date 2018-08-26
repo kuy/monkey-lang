@@ -11,13 +11,19 @@
 ## Build
 
 ```
-dune build monkey.exe
+dune build
 ```
 
 ## Run
 
 ```
-dune exec ./monkey.exe
+dune exec monkey
+```
+
+## Test
+
+```
+dune runtest
 ```
 
 ## License
